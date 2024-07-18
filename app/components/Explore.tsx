@@ -11,7 +11,7 @@ async function Explore() {
                 <h2 className='text-4xl font-semibold mb-5'>Explore nearby</h2>
                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
                  {exploreData.map((item,index) => {
-                   return <ExploreCard key={index} image={item.img} distance={item.distance} location={item.location} />
+                   return <ExploreCard key={item.img} image={item.img} distance={item.distance} location={item.location} />
                 })}
                </div>
             </div>
