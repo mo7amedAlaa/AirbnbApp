@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @layer components{
+.container{
+  @apply mx-auto px-4  w-full sm:w-[540px] md:w-[7200px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px]
+}
+.no-scrollbar::-webkit-scrollbar{
+display: none;
+}
+.no-scrollbar{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+ }
