@@ -35,7 +35,7 @@ const SearchResult = async ({
 
   return (
     <>
-      <Header placeholder={`${location} | ${range} | ${numOfGuests} guests`} />
+      <Header placeholder={` ${location} | ${range} | ${numOfGuests} guests`} />
       <main>
         <section>
           <div className='container flex'>
